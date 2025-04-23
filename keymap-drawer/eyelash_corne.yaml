@@ -148,54 +148,54 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - '&studio_unlock'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
-  - F3
+  - Ctl+A
   - F4
-  - F5
+  - PRINTSCREEN
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:progress-download$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - PRINTSCREEN
-  - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
+  - +
+  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - HOME
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ., s: '>'}
+  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - SCROLLLOCK
-  - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
+  - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
