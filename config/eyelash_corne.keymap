@@ -140,10 +140,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&none  &kp F1        &kp F2        &kp LC(A)     &kp F4        &kp PRINTSCREEN                                &mmv MOVE_UP                     &kp N7        &kp N8        &kp N9        &kp MINUS  &kp SLASH  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp ASTRK  &none
-&none  &sys_reset    &trans        &bootloader   &trans        &kp HOME         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp EQUAL  &none
-                                   &trans        &to 0         &trans                                                                          &trans        &kp N0        &kp DEL
+&none  &kp F1          &kp F2           &kp LC(A)        &kp F4           &kp PRINTSCREEN                                &mmv MOVE_UP                     &kp N7        &kp N8        &kp N9        &kp MINUS  &kp SLASH  &none
+&none  &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp ASTRK  &none
+&none  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp HOME         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp EQUAL  &none
+                                        &trans           &to 0            &trans                                                                          &trans        &kp N0        &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
