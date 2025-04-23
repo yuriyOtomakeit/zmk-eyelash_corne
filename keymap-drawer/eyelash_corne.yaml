@@ -196,3 +196,10 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [3, 4]
+  k: CLCK
+- p: [2, 1]
+  k: $$mdi:keyboard-esc$$
