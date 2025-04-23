@@ -6,7 +6,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -129,10 +128,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &kp EXCL          &kp AT  &kp HASH      &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp PAGE_UP    &kp HOME    &kp UP_ARROW    &kp END     &kp DELETE  &kp BSPC
+&trans  &hml GRAVE TILDE  &trans  &trans        &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp LEFT    &trans          &kp RIGHT   &kp BSLH    &kp GRAVE
+&trans  &trans            &trans  &trans        &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp UNDER      &kp C_PREV  &kp DOWN_ARROW  &kp C_NEXT  &kp PIPE    &kp TILDE
+                                  &kp LEFT_WIN  &trans    &kp SPACE                                                             &kp RET        &trans      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
