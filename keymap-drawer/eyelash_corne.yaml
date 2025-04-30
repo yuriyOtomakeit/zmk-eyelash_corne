@@ -203,3 +203,15 @@ combos:
   k: CLCK
 - p: [2, 1]
   k: $$mdi:keyboard-esc$$
+- p: [15, 16]
+  k: $$mdi:apple-keyboard-control$$
+- p: [17, 16]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [15, 14]
+  k: $$mdi:apple-keyboard-option$$
+- p: [23, 24]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [24, 25]
+  k: $$mdi:apple-keyboard-control$$
+- p: [25, 26]
+  k: $$mdi:apple-keyboard-option$$
