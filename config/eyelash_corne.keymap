@@ -94,6 +94,36 @@
             bindings = <&kp ESCAPE>;
             key-positions = <2 1>;
         };
+
+        LeftCtrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <15 16>;
+        };
+
+        LeftShift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <17 16>;
+        };
+
+        LeftAlt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <15 14>;
+        };
+
+        RightShift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <23 24>;
+        };
+
+        RightCtrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <24 25>;
+        };
+
+        RightAlt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <25 26>;
+        };
     };
 
     keymap {
