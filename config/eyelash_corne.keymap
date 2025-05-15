@@ -124,6 +124,16 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <25 26>;
         };
+
+        CtrlAltDel {
+            bindings = <&kp LA(LC(DELETE))>;
+            key-positions = <14 15 16 17>;
+        };
+
+        lwin {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <29 30>;
+        };
     };
 
     keymap {
