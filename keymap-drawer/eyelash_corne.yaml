@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - Sft+Ctl+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, h: ., s: ':'}
-  - $$mdi:apple-keyboard-shift$$
+  - Alt+V
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
