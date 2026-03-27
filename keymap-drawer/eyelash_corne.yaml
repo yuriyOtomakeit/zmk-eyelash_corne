@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: Fn, h: toggle}
+  - $$mdi:keyboard-space$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
