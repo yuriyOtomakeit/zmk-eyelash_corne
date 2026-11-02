@@ -12,7 +12,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '['}
   - Sft+Ctl+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - A
